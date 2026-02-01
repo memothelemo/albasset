@@ -1,0 +1,19 @@
+[alerts.admin_commands]
+# Whether any action from admin running any admin command should be alerted
+enabled = true
+
+# Configuration for Discord integration
+[discord]
+# Whether Discord integration should be enabled (true) or not (false)
+enabled = true
+
+# Insert your bot token here. DO NOT SHARE IT WITH ANYONE!!
+token = "<INSERT BOT TOKEN HERE>"
+
+# The main server to be fully utilized for Albasset
+# This property is mandatory if Discord integration is enabled.
+server_id = "0"
+
+# Designated channel for alerts
+# If left blank or unset, sending any alerts to Discord is disabled
+alert_channel_id = "0"

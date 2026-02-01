@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "xyz.memothelemo.albasset.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CommandsMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

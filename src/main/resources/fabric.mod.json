@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "albasset",
+  "version": "${version}",
+  "name": "Albasset",
+  "description": "Internal intelligence mod for Dystopia",
+  "authors": [
+    "memothelemo"
+  ],
+  "contact": {
+    "sources": "https://github.com/memothelemo/albasset",
+    "issues": "https://github.com/memothelemo/albasset/issues"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/albasset/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["xyz.memothelemo.albasset.Albasset::INSTANCE"]
+  },
+  "mixins": [
+    "albasset.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${fabric_loader_version}",
+    "fabric-api": "*",
+    "fabric-language-kotlin": ">=${fabric_kotlin_version}",
+    "fabric-permissions-api-v0": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
